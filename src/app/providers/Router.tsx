@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "../../layouts/MainLayout/MainLayout";
-import Main from "../../features/Main/Main.page";
-import Error404 from "../../features/Errors/Error404/Error404.page";
-import About from "../../features/About/About.page";
+import Main from "../../pages/Main/Main.page";
+import Error404 from "../../pages/Errors/Error404/Error404.page";
+import About from "../../pages/About/About.page";
 
 const router = createBrowserRouter([
   {
